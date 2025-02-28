@@ -1,7 +1,6 @@
 return {
   'tpope/vim-fugitive',
   config = function()
-    ---@diagnostic disable-next-line: missing-fields
     vim.keymap.set('n', '<leader>gs', vim.cmd.Git)
   end,
 }
